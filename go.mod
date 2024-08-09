@@ -1,1 +1,0 @@
-module github.com/alex-shpak/hugo-book
