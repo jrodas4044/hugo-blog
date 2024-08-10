@@ -6,7 +6,7 @@
     </p>
   {{ .Content }}
 
-  {{ range sort .Paginator.Pages }}
+  {{ range sort .Paginator.Pages.ByDate.Reverse }}
   <article>
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
 
