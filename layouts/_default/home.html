@@ -1,9 +1,22 @@
 {{ define "main" }}
-    <h1>Hola mundo</h1>
+    <h1>Blog Personal</h1>
+
+    <p>
+      Mi pasión por la tecnología y la justicia me llevó a combinar lo mejor de ambos mundos. Acompaña en este blog mi exploración constante de nuevas herramientas y desafíos.
+    </p>
   {{ .Content }}
 
-  {{ range .Site.RegularPages }}
+  {{ range sort .Paginator.Pages }}
+  <article>
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    <p>{{ .Summary }}</p>
+
+    <p>
+      {{- .Summary -}}
+      {{ if .Truncated }}
+        <a href="{{ .RelPermalink }}">...</a>
+      {{ end }}
+    </p>
+  </article>
   {{ end }}
+  {{ template "_internal/pagination.html" . }}
 {{ end }}
