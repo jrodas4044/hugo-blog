@@ -1,6 +1,7 @@
 baseurl = "https://blog.jonhathanrodas.com/"
-languageCode = "es_gt"
+languageCode = "es"
 title = "Jonhathan Rodas"
+
 # Copyright notice. This is displayer in the footer.
 copyright = "© Jonhathan Rolando Rodas Lopez"
 
@@ -21,6 +22,7 @@ enableGitInfo = true
 theme= "archie"
 [params]
 	mode="toggle"
+	description = "Blog personal personal sobre Tecnología, Desarrollo de Software, Ciberseguridad y Ciencias Forenses."
 
 [[params.social]]
 name = "GitHub"
