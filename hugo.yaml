@@ -1,0 +1,60 @@
+title: 'Jonhathan Rodas'
+description	: 'Desarrollo de Software, Ciberseguridad y Ciencias Forenses.'
+theme: "PaperMod"
+ShowFullTextinRSS: true
+ShowWordCount: true
+copyright: "Jonhathan Rodas"
+languageCode: "es"
+
+params:
+    defaultTheme: auto 
+    env: production
+    
+    homeInfoParams:
+        Title: "## Desarrollo de Software, Ciberseguridad y Ciencias Forenses."
+        Content: "
+         \n\n Soy un apasionado de la tecnología con una sólida formación en desarrollo de software y una profunda comprensión de los desafíos de la ciberseguridad.
+          Me especializo en crear soluciones cloud-native escalables y seguras, combinando mi experiencia en desarrollo con mis conocimientos en ciencias forenses  para proteger los activos digitales de mis clientes. 
+          \n\n\n Además, brindo consultoría especializada en transformación digital, prevención de riesgos y seguridad de la información, ayudando a las organizaciones a adaptarse a un entorno digital en constante evolución. \n 
+        
+         "
+    socialIcons: 
+        - name: "linkedin"
+          url: "https://www.linkedin.com/in/jonhathan-rodas/"
+        - name: "github"
+          url: "https://github.com/jrodas4044"
+        - name: "tiktok"
+          url: "https://www.tiktok.com/@elefanteweb"
+        - name: "web"
+          url: "https://jonhathanrodas.com"
+
+    outputs:
+        home:
+            - HTML
+            - RSS
+            - JSON
+    
+    ShowShareButtons: true
+    ShowReadingTime: true
+    ShowToc: true
+    ShowBreadCrumbs: true
+    ShowPostNavLinks: true
+    ShowCodeCopyButtons: true
+    author: "Jonhathan Rolando Rodas Lopez"
+    comments: true
+
+menu:
+  main:
+    - identifier: blog
+      name: Artículos
+      url: /posts/
+      weight: 10
+    - identifier: categories
+      name: Categorías
+      url: /categories/
+      weight: 20
+    - identifier: About
+      name: Sobre Mi
+      url: "https://jonhathanrodas.com"
+      weight: 30
+
