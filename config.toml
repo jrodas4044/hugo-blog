@@ -1,8 +1,14 @@
 baseurl = "https://blog.jonhathanrodas.com/"
-languageCode = "es"
-Title = "Your site title"
+languageCode = "es_gt"
+title = "Jonhathan Rodas"
 # Copyright notice. This is displayer in the footer.
-copyright = "&copy; Copyright notice"
+copyright = "© Jonhathan Rolando Rodas Lopez"
+
+
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
 # Google Analytics API key.
 googleAnalytics = "Your Google Analytics tracking id"
@@ -13,4 +19,37 @@ enableGitInfo = true
 
 
 theme= "archie"
+[params]
+	mode="toggle"
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/athul/archie"
+
+
+# Main menu Items
+
+[[menu.main]]
+name = "Inicio"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Artículos"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+name = "Categorías"
+url = "/tags/"
+weight = 3
+
+[[menu.main]]
+name = "Sobre mi"
+url = "https://www.jonhathanrodas.com"
+weight = 4
+
+
+
 

@@ -6,8 +6,7 @@
     {{- end -}}
   </div>
   <div class="footer-info">
-    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }}  {{ end }} 
   </div>
 </footer>
 {{ if not hugo.IsServer }}
@@ -17,5 +16,14 @@
 {{- if (isset .Site.Params "social") -}}
 <script>
   feather.replace()
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QQKRR62YY3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QQKRR62YY3');
 </script>
 {{- end -}}

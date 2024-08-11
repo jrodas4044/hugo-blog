@@ -4,6 +4,23 @@
 	<body>
 		<div class="content">
 			{{ partial "head.html" . }}
+
+			<div>
+				<h2>Desarrollo de Software, Ciberseguridad y Ciencias Forenses.</h2>
+				<p>
+					Soy un apasionado de la tecnología con una sólida formación en desarrollo de software y una profunda comprensión de los desafíos de la ciberseguridad.
+					Me especializo en crear soluciones cloud-native escalables y seguras, combinando mi experiencia en desarrollo con mis conocimientos en ciencias forenses  para proteger los activos digitales de mis clientes. 
+				</p>
+				<p>
+					Además, brindo consultoría especializada en transformación digital, prevención de riesgos y seguridad de la información, ayudando a las organizaciones a adaptarse a un entorno digital en constante evolución.
+				</p>
+			</div>
+
+			<div style="display:flex">
+				{{- range $index, $key := .Site.Params.Social -}}
+				<a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
+				{{- end -}}
+			</div>
 			
 			<main class="list">
 				<div class="site-description">
@@ -13,12 +30,12 @@
 				</div>
 				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
 				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
-				{{ range $paginator.Pages }}
+				{{ range $paginator.Pages.Reverse }}
 				<section class="list-item">
 					<h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
 					<time>{{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
 					<br>{{ template "partials/pagedescription.html" . }}
-					<a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a>
+					<a class="readmore" href="{{ .RelPermalink }}">Leer mas ⟶</a>
 				</section>
 				{{ end }}
 				{{ template "partials/paginator.html" . }}

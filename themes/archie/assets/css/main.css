@@ -10,7 +10,7 @@ html {
   color: #232333;
   font-family: 'Roboto Mono', monospace;
   font-size: 15px;
-  line-height: 1.6em;
+  line-height: 2em;
 }
 body{
   display: block;
@@ -26,8 +26,7 @@ body{
 }
 
 p {
-  font-family: 'Fira Sans', sans-serif;
-  line-height: 1.5;
+  line-height: 2em;
 }
 
 hr {
@@ -170,6 +169,10 @@ h6::before { color: var(--maincolor); content: '###### '; }
   display: inline-block;
 }
 
+.description {
+  line-height: 2em;
+}
+
 /* Footer */
 footer {
   display: flex;
@@ -215,7 +218,6 @@ article .title {
 }
 
 .callout p {
-  font-family: 'IBM Plex Mono', monospace;
   margin: 0;
 }
 

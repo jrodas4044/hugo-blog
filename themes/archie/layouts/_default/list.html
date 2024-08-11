@@ -6,10 +6,16 @@
 {{ end }}
 
 <ul class="posts">
-	{{- range .Data.Pages -}}
+	{{- range .Data.Pages.Reverse -}}
 		{{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}}
 		<li class="post">
 			<a href="{{ .RelPermalink }}">{{.Title}}</a> <span class="meta">{{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</span>
+			<p>
+				{{ .Summary }}
+				{{- if .Truncated -}}
+				<a href="{{ .RelPermalink }}" class="read-more">Leer mas</a>
+				{{- end -}}
+			</p>
 		</li>
 		{{- end -}}
 	{{- end -}}
