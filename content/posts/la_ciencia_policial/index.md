@@ -3,9 +3,6 @@ author: "Jonhathan Rolando Rodas Lopez"
 content: "post"
 linktitle:  La Ciencia Policial
 date: 10-08-2024
-menu:
-  main:
-    parent: tutorials
 title: "La Ciencia Policial"
 weight: 10
 categories: ['Ciencia Policial','Seguridad', 'Policía', 'Criminología', 'Criminalística']

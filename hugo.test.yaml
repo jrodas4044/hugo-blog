@@ -1,6 +1,6 @@
 title: 'Jonhathan Rodas'
 description	: 'Desarrollo de Software, Ciberseguridad y Ciencias Forenses.'
-theme: "PaperMod"
+theme: "hugo_theme_pickles"
 ShowFullTextinRSS: true
 ShowWordCount: true
 copyright: "Jonhathan Rodas"

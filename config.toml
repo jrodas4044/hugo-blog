@@ -1,0 +1,16 @@
+baseurl = "https://blog.jonhathanrodas.com/"
+languageCode = "es"
+Title = "Your site title"
+# Copyright notice. This is displayer in the footer.
+copyright = "&copy; Copyright notice"
+
+# Google Analytics API key.
+googleAnalytics = "Your Google Analytics tracking id"
+
+# enable get info from git commits, such as file modification time.
+# so we don't have to manually update it.
+enableGitInfo = true
+
+
+theme= "archie"
+

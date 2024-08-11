@@ -2,9 +2,6 @@
 author: "Jonhathan Rolando Rodas Lopez"
 linktitle:  ¿Qué es AWS Amplify?
 date: 05-07-2024
-menu:
-  main:
-    parent: tutorials
 title: ¿Qué es AWS Amplify?
 weight: 10
 categories: ['AWS', 'Front-End', 'Cloud']
