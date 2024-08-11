@@ -1,5 +1,5 @@
 baseurl = "https://blog.jonhathanrodas.com/"
-languageCode = "es"
+Lang = "es"
 title = "Jonhathan Rodas"
 
 # Copyright notice. This is displayer in the footer.
