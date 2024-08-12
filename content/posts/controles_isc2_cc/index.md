@@ -8,6 +8,7 @@ tags: ['Ciberseguridad', 'Controles de Seguridad', 'Certificación', 'ISC2']
 toc: true
 
 ---
+## Introducción
 Cuando pensamos en los profesionales de la ciberseguridad, es inevitable visualizar la enorme responsabilidad que recae sobre sus hombros: proteger la información, los sistemas y, en última instancia, la reputación de las organizaciones. En un mundo donde los datos son el nuevo oro, cualquier descuido puede tener consecuencias devastadoras. Por eso, la pregunta crucial que debemos hacernos es: ¿qué medidas de seguridad pueden implementarse para llevar a cabo esta tarea de manera efectiva?
 
 Las respuestas a esta pregunta se encuentran en los controles de seguridad, un conjunto de medidas que, cuando se implementan adecuadamente, actúan como un escudo para proteger la infraestructura crítica de una organización. Estos controles son esenciales, no solo para mitigar riesgos, sino también para cumplir con los estándares de certificación en ciberseguridad, como los que ofrece ISC2. Pero, ¿qué son exactamente estos controles de seguridad y cómo juegan un rol en la certificación? Vamos a desglosarlo.
