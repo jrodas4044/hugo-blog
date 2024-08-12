@@ -24,6 +24,7 @@ theme= "archie"
 [params]
 	mode="toggle"
 	description = "Blog personal personal sobre Tecnología, Desarrollo de Software, Ciberseguridad y Ciencias Forenses."
+	og_image= "cover.png"
 
 	[author]
 		name = "Jonathan Rodas"
@@ -59,6 +60,10 @@ weight = 3
 name = "Sobre mi"
 url = "https://www.jonhathanrodas.com"
 weight = 4
+
+[services]
+  [services.disqus]
+    shortname = 'jonhathanrodas-com'
 
 
 
