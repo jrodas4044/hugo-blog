@@ -6,6 +6,7 @@ title = "Jonhathan Rodas"
 copyright = "© Jonhathan Rolando Rodas Lopez"
 
 
+
 # Code Highlight
 pygmentsstyle = "monokai"
 pygmentscodefences = true
@@ -23,6 +24,13 @@ theme= "archie"
 [params]
 	mode="toggle"
 	description = "Blog personal personal sobre Tecnología, Desarrollo de Software, Ciberseguridad y Ciencias Forenses."
+
+	[author]
+		name = "Jonathan Rodas"
+		bio = "Software Engineer and Blogger"
+		location = "Guatemala, CA"
+		website = "https://www.jonathanrodas.com"
+		email = "me@jonathanrodas.com"
 
 [[params.social]]
 name = "GitHub"

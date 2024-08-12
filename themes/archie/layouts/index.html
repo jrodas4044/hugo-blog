@@ -28,7 +28,7 @@
 					<p>{{ .Site.Params.Subtitle | .Page.RenderString }}</p>
 					{{- end -}}
 				</div>
-				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+				{{ $pages := where .Site.RegularPages.Reverse "Type" "in" .Site.Params.mainSections }}
 				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
 				{{ range $paginator.Pages.Reverse }}
 				<section class="list-item">

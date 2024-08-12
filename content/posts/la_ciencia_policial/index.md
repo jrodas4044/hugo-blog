@@ -1,12 +1,12 @@
 ---
 author: "Jonhathan Rolando Rodas Lopez"
-content: "post"
-linktitle:  La Ciencia Policial
-date: 10-08-2024
+content: "blog"
 title: "La Ciencia Policial"
-weight: 10
-tags: ['Ciencia Policial','Seguridad', 'Policía', 'Criminología', 'Criminalística']
+description: "La Ciencia Policial es un campo multidisciplinario que, a pesar de su enfoque en la seguridad y el orden público, abarca un amplio espectro de disciplinas como la sociología, la política, la filosofía y el derecho."
+date: 2024-08-10
+tags: ['Ciencia Policial','Seguridad', 'Policía', 'Criminología', 'Ciencias Forenses', 'Criminalística']
 toc: true
+
 ---
 
 La Ciencia Policial ha sido objeto de estudio y análisis por diversos autores y pensadores a lo largo del tiempo. Es un campo multidisciplinario que, a pesar de su enfoque en la seguridad y el orden público, abarca un amplio espectro de disciplinas como la sociología, la política, la filosofía y el derecho. En este artículo, exploraremos qué es la Ciencia Policial, su evolución histórica, y cómo se ha conceptualizado desde diferentes perspectivas académicas.
