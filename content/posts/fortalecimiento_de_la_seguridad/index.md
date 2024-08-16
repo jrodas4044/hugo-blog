@@ -3,7 +3,7 @@ author: "Jonhathan Rolando Rodas Lopez"
 content: "blog"
 title: "Fortaleciendo la Seguridad de la Información: Requerimientos Complementarios Claves"
 description: "La autenticación, autorización y control de acceso, y asignación de responsabilidad son requerimientos complementarios esenciales para fortalecer la seguridad de la información en cualquier organización. En este artículo, exploraremos cada uno de estos conceptos, su importancia y cómo se aplican en la práctica."
-date: 2024-08-12
+date: 2024-08-15
 tags: ['Ciberseguridad', 'Controles de Seguridad', 'Seguridad de la informacion', 'ISC2']
 toc: true
 
