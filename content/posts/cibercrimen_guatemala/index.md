@@ -4,7 +4,9 @@ content: "blog"
 title: "El delito cibernético en Guatemala"
 description: "Un panorama general del cibercrimen en Guatemala, los principales tipos de cibercrimen en el país, el impacto del cibercrimen en la sociedad guatemalteca y cómo los ciudadanos y las empresas pueden defenderse."
 date: 2024-08-11
-tags: ["Cibercrimen", "Delitos informáticos", "Ciberseguridad", 'Ciberdelincuencia', "Seguridad Informática", "Criminalística"]
+image: /images/ciberdelitoGuatemala.jpg
+tags: ["Cibercrimen", "Delitos informáticos", "Ciberseguridad", 'Ciberdelincuencia', "Seguridad Informática", "Criminalística", 'feature']
+categories: ["Ciberseguridad"]
 toc: true
 
 ---

@@ -5,6 +5,7 @@ title: "La Ciencia Policial"
 description: "La Ciencia Policial es un campo multidisciplinario que, a pesar de su enfoque en la seguridad y el orden público, abarca un amplio espectro de disciplinas como la sociología, la política, la filosofía y el derecho."
 date: 2024-08-10
 tags: ['Ciencia Policial','Seguridad', 'Policía', 'Criminología', 'Ciencias Forenses', 'Criminalística']
+categories: ["Criminoogía y Criminalística", "Ciencias Forenses", "Seguridad"]
 toc: true
 
 ---

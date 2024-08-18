@@ -5,6 +5,7 @@ title: "El objetivo de la respuesta a incidentes: Prepararse para lo inesperado"
 description: "La respuesta a incidentes es una parte crucial de la ciberseguridad. En este artículo, exploraremos cómo estar preparados para manejar los problemas cuando surjan, minimizar su impacto y aprender de ellos para fortalecernos en el futuro."
 date: 2024-08-12
 tags: ['Ciberseguridad', 'Respuesta a Incidentes', 'Preparación', 'Detección', 'Contención', 'Recuperación', 'ISC2']
+categories: ["Ciberseguridad"]
 toc: true
 
 ---

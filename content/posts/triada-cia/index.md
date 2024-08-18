@@ -5,6 +5,7 @@ title: "La Triada CIA: Requerimientos Fundamentales de Seguridad"
 description: "La confidencialidad, integridad y disponibilidad son los pilares fundamentales de la seguridad de la información. En este artículo, exploraremos cada uno de estos componentes, su importancia y cómo se aplican en diferentes escenarios."
 date: 2024-08-12
 tags: ['Ciberseguridad', 'Controles de Seguridad', 'Certificación', 'ISC2']
+categories: ["Ciberseguridad"]
 toc: true
 
 ---

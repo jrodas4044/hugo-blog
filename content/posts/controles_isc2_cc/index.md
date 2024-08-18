@@ -5,6 +5,8 @@ title: "El Rol de los Controles de Seguridad en la Certificación de Ciberseguri
 description: "Los controles de seguridad son esenciales para proteger la información, los sistemas y la reputación de las organizaciones. En el contexto de la certificación de ciberseguridad de ISC2, estos controles juegan un papel crucial en la evaluación y la implementación de medidas de seguridad efectivas."
 date: 2024-08-12
 tags: ['Ciberseguridad', 'Controles de Seguridad', 'Certificación', 'ISC2']
+categories: ["Ciberseguridad"]
+
 toc: true
 
 ---

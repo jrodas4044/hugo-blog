@@ -20,7 +20,7 @@ googleAnalytics = "Your Google Analytics tracking id"
 enableGitInfo = true
 
 
-theme= "archie"
+theme= "pehtheme-hugo"
 [params]
 	mode="toggle"
 	description = "Blog personal personal sobre Tecnología, Desarrollo de Software, Ciberseguridad y Ciencias Forenses."
@@ -32,6 +32,7 @@ theme= "archie"
 		location = "Guatemala, CA"
 		website = "https://www.jonathanrodas.com"
 		email = "me@jonathanrodas.com"
+		avatar = "https://www.jonhathanrodas.com/_next/image?url=%2Fprofile.jpg&w=640&q=75"
 
 [[params.social]]
 name = "GitHub"
@@ -53,7 +54,7 @@ weight = 2
 
 [[menu.main]]
 name = "Categorías"
-url = "/tags/"
+url = "/categories/"
 weight = 3
 
 [[menu.main]]

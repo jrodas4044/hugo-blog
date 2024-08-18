@@ -5,6 +5,8 @@ title: "La Privacidad en la Era Digital: Un Llamado a la Acción para Gerentes d
 description: "La privacidad se ha convertido en un tema crucial para las organizaciones y los profesionales de IT. Con la creciente cantidad de datos que se recopilan y procesan diariamente, es fundamental comprender y abordar los desafíos asociados con la protección de la información personal. Este artículo explora los conceptos clave de la privacidad, sus implicaciones y las mejores prácticas para salvaguardar los datos en el entorno digital actual."
 date: 2024-08-16
 tags: ['Ciberseguridad', 'Controles de Seguridad', 'Seguridad de la informacion', 'ISC2']
+categories: ["Ciberseguridad"]
+
 toc: true
 
 ---
