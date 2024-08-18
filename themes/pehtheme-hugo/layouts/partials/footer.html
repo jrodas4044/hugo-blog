@@ -1,0 +1,45 @@
+<div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+
+  <div class="flex flex-wrap space-y-6 mb-4">
+
+    <div class="w-full md:w-3/5 flex flex-col space-y-4 md:pr-8 lg:pr-10">
+
+      <a class="flex items-center group" href="{{ .Site.BaseURL }}">
+        
+        <span class="text-2xl font-semibold uppercase">{{ .Site.Title }}</span>
+      </a>
+
+      <p class="font-semibold">
+        Software Developer<br>
+        Cybersecurity Analyst
+      </p>
+
+      <p>
+        Soy un apasionado de la tecnología con una sólida formación en desarrollo de software y una profunda comprensión de los desafíos de la ciberseguridad. Me especializo en crear soluciones cloud-native escalables y seguras, combinando mi experiencia en desarrollo con mis conocimientos en ciencias forenses para proteger los activos digitales de mis clientes.
+      </p>
+
+    </div>
+
+    <div class="self-center flex flex-col w-full md:w-2/5">
+
+{{ partial "content/social-media.html" . }}
+
+    </div>
+    
+  </div>
+
+  <div class="my-8">
+    <ul class="flex items-center space-x-4">
+      {{ range .Site.Menus.main }}
+        <li><a class="decoration-auto hover:underline font-semibold" href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <div class="border-t pt-4">
+
+    <p class="text-sm">Copyright © {{ now.Year }}. All rights reserved. </p>
+
+  </div>
+  
+</div>
