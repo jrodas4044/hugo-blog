@@ -2134,3 +2134,13 @@ video {
     line-height: 1;
   }
 }
+
+.bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(19 23 34 / var(--tw-bg-opacity));
+}
+
+.bg-blue-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
