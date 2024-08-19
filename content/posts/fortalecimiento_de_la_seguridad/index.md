@@ -7,7 +7,7 @@ date: 2024-08-15
 tags: ['Ciberseguridad', 'Controles de Seguridad', 'Seguridad de la informacion', 'ISC2']
 categories: ["Ciberseguridad"]
 toc: true
-
+image: "/images/fortalecimiento_seguridad_informacion.jpg"
 ---
 
 ## Introducción

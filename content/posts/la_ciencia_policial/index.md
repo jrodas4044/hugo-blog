@@ -7,7 +7,7 @@ date: 2024-08-10
 tags: ['Ciencia Policial','Seguridad', 'Policía', 'Criminología', 'Ciencias Forenses', 'Criminalística']
 categories: ["Criminoogía y Criminalística", "Ciencias Forenses", "Seguridad"]
 toc: true
-
+image: "/images/la_ciencia_policial.jpg"
 ---
 
 La Ciencia Policial ha sido objeto de estudio y análisis por diversos autores y pensadores a lo largo del tiempo. Es un campo multidisciplinario que, a pesar de su enfoque en la seguridad y el orden público, abarca un amplio espectro de disciplinas como la sociología, la política, la filosofía y el derecho. En este artículo, exploraremos qué es la Ciencia Policial, su evolución histórica, y cómo se ha conceptualizado desde diferentes perspectivas académicas.

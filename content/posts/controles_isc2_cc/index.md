@@ -6,7 +6,7 @@ description: "Los controles de seguridad son esenciales para proteger la informa
 date: 2024-08-12
 tags: ['Ciberseguridad', 'Controles de Seguridad', 'Certificación', 'ISC2']
 categories: ["Ciberseguridad"]
-
+image: "/images/controles_isc2.jpg"
 toc: true
 
 ---

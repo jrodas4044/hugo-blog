@@ -69,5 +69,11 @@ weight = 4
 enableRobotsTXT = true
 
 
+[imaging]
+  bgColor = '#ffffff'
+  hint = 'photo'
+  quality = 75
+  resampleFilter = 'box'
+
 
 

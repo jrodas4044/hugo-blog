@@ -7,6 +7,7 @@ date: 2024-08-12
 tags: ['Ciberseguridad', 'Controles de Seguridad', 'Certificación', 'ISC2']
 categories: ["Ciberseguridad"]
 toc: true
+image: "/images/la_triada_cia.jpg"
 
 ---
 La seguridad de la información es un aspecto crucial en el mundo digital actual. Para proteger los datos y recursos de una organización, se deben cumplir tres requerimientos fundamentales: confidencialidad, integridad y disponibilidad, comúnmente conocidos como la Triada CIA. En este artículo, exploraremos cada uno de estos componentes, su importancia y cómo se aplican en diferentes escenarios.

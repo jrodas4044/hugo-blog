@@ -6,7 +6,7 @@ description: "La privacidad se ha convertido en un tema crucial para las organiz
 date: 2024-08-16
 tags: ['Ciberseguridad', 'Controles de Seguridad', 'Seguridad de la informacion', 'ISC2']
 categories: ["Ciberseguridad"]
-
+image: "/images/la_privacidad_en_la_era_digital.jpg"
 toc: true
 
 ---

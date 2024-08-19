@@ -7,7 +7,7 @@ date: 2024-08-12
 tags: ['Ciberseguridad', 'Respuesta a Incidentes', 'Preparación', 'Detección', 'Contención', 'Recuperación', 'ISC2']
 categories: ["Ciberseguridad"]
 toc: true
-
+image: "/images/respuesta_incidentes.jpg"
 ---
 ## Introducción
 Imagina por un momento que eres el capitán de un barco. Tu misión es llevar a tu tripulación y pasajeros a salvo a su destino. Sabes que el mar puede ser impredecible, que las tormentas pueden surgir de la nada y que los escollos pueden acechar bajo la superficie. ¿Qué haces? Te preparas, por supuesto. Estudias las cartas de navegación, entrenas a tu tripulación, revisas el equipo de seguridad y tienes un plan para cada escenario posible.
