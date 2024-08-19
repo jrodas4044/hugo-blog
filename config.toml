@@ -1,9 +1,9 @@
 baseurl = "https://blog.jonhathanrodas.com/"
 languageCode = "es"
-title = "Jonhathan Rodas"
+title = "Jonhathan Rolando Rodas López - Blog"
 
 # Copyright notice. This is displayer in the footer.
-copyright = "© Jonhathan Rolando Rodas Lopez"
+copyright = "© Jonhathan Rolando Rodas Lpez "
 
 
 
@@ -27,7 +27,7 @@ theme= "pehtheme-hugo"
 	og_image= "cover.png"
 
 	[author]
-		name = "Jonathan Rodas"
+		name = "Jonathan Rolando Rodas López"
 		bio = "Software Engineer and Blogger"
 		location = "Guatemala, CA"
 		website = "https://www.jonathanrodas.com"
