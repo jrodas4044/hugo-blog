@@ -76,4 +76,10 @@ enableRobotsTXT = true
   resampleFilter = 'box'
 
 
+[markup.tableOfContents]
+  endLevel = 3    # Hasta qué nivel de encabezado incluir (h1, h2, h3)
+  ordered = false # Usar números en la lista (true) o puntos (false)
+  startLevel = 2  # Desde qué nivel de encabezado empezar (h2)
+
+
 

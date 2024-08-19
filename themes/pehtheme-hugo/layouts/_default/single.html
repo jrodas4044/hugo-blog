@@ -31,13 +31,21 @@
             {{ .ReadingTime }} min read
           </li>
 
+          <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2">
+             <button id="toggle-toc">Mostrar/Ocultar Tabla de Contenidos</button>
+          </li>
+
         </ul>
 
       </div>
       
     </header>
 
-    <div id="content" class="mb-14">
+<nav id="toc" style="display:none;" class="shadow py-2">
+  {{ .TableOfContents }}
+</nav>
+
+    <div id="content" class="">
       <!-- Content -->
 
       {{- .Content -}}
@@ -54,7 +62,7 @@
 
         <h2 class="text-xl font-semibold">Commentarios</h2>
 
-        {{-  template "partials/disqus.html"  -}}
+        {{-  partial "disqus.html"  -}}
 
       </div>
 
@@ -122,5 +130,16 @@
   </aside>
 
 </div>
+
+<script>
+  document.getElementById("toggle-toc").addEventListener("click", function() {
+    var toc = document.getElementById("toc");
+    if (toc.style.display === "none") {
+      toc.style.display = "block";
+    } else {
+      toc.style.display = "none";
+    }
+  });
+</script>
   
 {{ end }}

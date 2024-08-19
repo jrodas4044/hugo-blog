@@ -2144,3 +2144,43 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
+
+#toc {
+  border-left: 3px solid #007acc;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  font-size: 0.9em; /* Tamaño de fuente más pequeño */
+  line-height: 1.4; /* Altura de línea compacta */
+  background-color: #f7f7f7; /* Color de fondo sutil */
+}
+
+#toc ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0; /* Eliminar márgenes */
+}
+
+#toc ul ul {
+  margin-left: 15px; /* Indentar subniveles */
+}
+
+#toc ul li {
+  margin: 5px 0; /* Reducir espacio entre elementos */
+}
+
+#toc ul li a {
+  text-decoration: none;
+  color: #007acc;
+  padding: 2px 0; /* Espaciado interno mínimo */
+}
+
+#toc ul li a:hover {
+  text-decoration: underline;
+  color: #005f99; /* Cambiar color al pasar el mouse */
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 0.5em !important;
+  margin-bottom: 1em !important;
+}
